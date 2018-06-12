@@ -1,0 +1,162 @@
+$green: #56AA7E;
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.pagetitle {
+  margin: auto;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-shadow: black;
+}
+
+.header-image{
+  background-image: url("../images/kenya.jpg");
+  height: 550px;
+  background-position: center;
+  display: flex;
+}
+
+.button input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + label {
+    border: 4px solid $green;
+}
+
+.image-wrap {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.participant-image {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.flex-grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 45px;
+}
+
+.button {
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 15px;
+
+  h6{
+    font-family: 'Poppins', sans-serif;
+  }
+
+}
+
+
+/*.static-control {
+  padding: 50px;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+
+  .highlight {
+    position: absolute;
+    background-color: #6bc195ad;
+    border-radius: 15px;
+    width: 200px;
+    height: 18px;
+    top: 97px;
+    margin: auto;
+  }
+
+  h1 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+  }
+
+}
+*/
+
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+}
+
+
+.btn {
+  background-color: $green;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid $green;
+  border-radius: 15px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.btn:hover {
+  background-color: $green;
+  border: 1px solid $green;
+  border: none;
+}
+
+.breadcrumb {
+  a {
+    color: $green;
+  }
+
+  a:after{
+    content: ' / ';
+    padding-right: 4px;
+  }
+}
+
+
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2.background {
+  position: relative;
+  z-index: 1;
+}
+h2.background:before {
+  border-top: 18px solid $green;
+  border-radius: 15px;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 26%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 18px;
+  width: 50%;
+  z-index: -1;
+}
+
+footer {
+  height: 100px;
+  background-color: $green;
+  color: white;
+}
