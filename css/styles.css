@@ -158,4 +158,85 @@ footer {
       footer .footer-logo {
         width: 12%; } }
 
+/******************************************************
+ * rock_how_many_increments styles
+ ******************************************************/
+.numberincrement {
+  text-align: center;
+  font-size: 50px; }
+
+/******************************************************
+ * rock_participant_profile
+ ******************************************************/
+.trip-btn {
+  width: 35%;
+  margin: 0 auto;
+  display: block; }
+
+.copy-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 10px; }
+
+.copy-btn:hover {
+  color: #56AA7E; }
+
+.img-thumbnail {
+  width: 50%;
+  display: block;
+  margin: 20px auto; }
+
+.image-wrap2 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  margin-right: 20px; }
+
+.participant-image2 {
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px; }
+
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.trip-content {
+  border-right: 3px solid black; }
+
+.participant-content {
+  padding-top: 20px;
+  padding-left: 90px; }
+  .participant-content h2 {
+    color: #56AA7E; }
+  .participant-content span {
+    line-height: 0; }
+
+ul.socialsharing {
+  padding-left: 0; }
+
+.socialsharing li {
+  margin-top: 15px;
+  list-style-type: none;
+  display: inline-block; }
+  .socialsharing li .fab,
+  .socialsharing li .fas {
+    font-size: 26px;
+    color: #303030; }
+  .socialsharing li .fab:hover,
+  .socialsharing li .fas:hover {
+    color: #56AA7E; }
+
+.fundraising {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.progress-bar {
+  background: #c4c4c4;
+  background: linear-gradient(101deg, #c4c4c4 6%, #56aa7e 69%); }
+
 /*# sourceMappingURL=styles.css.map */
